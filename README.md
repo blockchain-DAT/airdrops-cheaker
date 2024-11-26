@@ -55,7 +55,7 @@ python3 check.py 0x1234567890ABCDEF
 
 准备一个包含钱包地址的 `.txt` 文件（每行一个地址）：
 
-**示例：`addresses.txt`**
+**示例：`wallets.txt`**
 
 ```
 0x1234567890ABCDEF
@@ -65,7 +65,7 @@ python3 check.py 0x1234567890ABCDEF
 使用文件路径作为参数运行脚本：
 
 ```bash
-python3 check.py addresses.txt
+python3 check.py wallets.txt
 ```
 
 脚本会读取文件，查询每个地址，并输出结果。
