@@ -62,7 +62,7 @@ python3 check_airdrop.py addresses.txt
 
 脚本会读取文件，查询每个地址，并输出结果。
 
-### 输出示例
+### »»» 输出示例
 
 无论是单地址还是批量查询，脚本都会输出每个地址的详细摘要：
 
@@ -98,7 +98,3 @@ python3 check_airdrop.py addresses.txt
 ## 许可协议
 
 本项目基于 MIT 许可证开源。详情请参阅 [LICENSE](LICENSE) 文件。
-
-## 致谢
-
-- 感谢 [Byzantine Checkdrop](https://checkdrop.byzantine.fi/) 提供的 API 接口。
