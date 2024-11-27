@@ -37,7 +37,7 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ### »»» 方法 1
 
-使用以下命令运行脚本，按提示输入 EVM 地址
+使用以下命令运行脚本，按提示输入 EVM 地址。
 
 ```bash
 ./check.sh
@@ -47,11 +47,9 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ### »»» 方法 2
 
-● 使用以下命令运行脚本，命令后面加上地址。
-● 使用以下命令运行脚本，命令后面加上 txt 文件（先在 txt 文件中配置地址列表）。
-
 ```bash
-python3 check.py ＜你的地址或者txt文件＞
+python3 check.py ＜你的地址＞    #查询单一地址。
+python3 check.py wallets.txt     #查询多个地址。（运行前须先在 wallets.txt 中添加地址列表）
 ```
 
 ---
