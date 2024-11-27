@@ -47,7 +47,8 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ### »»» 方法 2
 
-1.使用以下命令运行脚本，命令后面加上地址。 2.使用以下命令运行脚本，命令后面加上 txt 文件（先在 txt 文件中配置地址列表）。
+● 使用以下命令运行脚本，命令后面加上地址。
+● 使用以下命令运行脚本，命令后面加上 txt 文件（先在 txt 文件中配置地址列表）。
 
 ```bash
 python3 check.py ＜你的地址或者txt文件＞
