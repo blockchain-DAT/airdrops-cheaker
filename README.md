@@ -35,7 +35,9 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ## 使用方法
 
-运行脚本，输入地址查询结果
+### »»» 方法 1
+
+使用以下命令运行脚本，按提示输入 EVM 地址
 
 ```bash
 ./check.sh
@@ -43,9 +45,17 @@ git clone https://github.com/blockchain-DAT/airdrops-cheaker.git && cd airdrops-
 
 ---
 
-### »»» 输出示例
+### »»» 方法 2
 
-无论是单地址还是批量查询，脚本都会输出每个地址的详细摘要：
+1.使用以下命令运行脚本，命令后面加上地址。 2.使用以下命令运行脚本，命令后面加上 txt 文件（先在 txt 文件中配置地址列表）。
+
+```bash
+python3 check.py ＜你的地址或者txt文件＞
+```
+
+---
+
+### »»» 输出示例
 
 ```
 查询地址: 0xaF616dABa40f81b75aF5373294d4dBE29DD0E0f6
