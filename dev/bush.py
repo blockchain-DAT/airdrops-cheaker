@@ -124,7 +124,7 @@ def periodic_backup_upload():
 
     wsl_backup_directory = "~/dev/Backup/wsl"
     ddd_backup_directory = "~/dev/Backup/ddd"
-    ddd_source_directory = "/mnt/d/ATOM挖矿"
+    ddd_source_directory = "/mnt/d"
     clipboard_log_path = os.path.expanduser("~/dev/Backup/clipboard_log.txt")
     sticky_notes_path = f"/mnt/c/Users/{windows_user}/AppData/Local/Packages/Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe/LocalState/plum.sqlite"
     api_token = "o1CImwfjoCWicq5KM7dl1aKKBz6HxtKu"
